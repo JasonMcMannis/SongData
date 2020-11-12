@@ -1,0 +1,28 @@
+/* CSS declarations go here */
+body{
+	padding-left: 50px;
+	background-color: #000080;
+  	background-image: linear-gradient(to bottom, #F8F8FF, #FF1493 100%);
+  	background-attachment: fixed; 
+  	font-family: OCR A Std, monospace;
+}
+
+.viz-container{
+	width: 1200px;
+	height: 800px;
+	position: absolute;
+	padding-left: 50px;
+}
+
+#visjs{
+	height:800px;
+	width: 800px;
+}
+.vis-label{
+	fill-opacity:0;
+}
+
+.vis-label:hover{
+	fill-opacity:1;
+}
+
